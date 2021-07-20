@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="time_series"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/transwarp/Work/Cpp/time_series/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/transwarp/Work/Cpp/time_series/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data">
+				<Option output="/home/transwarp/Work/Cpp/time_series/cmake-build-debug/lib/libdata.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/transwarp/Work/Cpp/time_series/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/transwarp/Work/Cpp/time_series/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 data"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data/fast">
+				<Option output="/home/transwarp/Work/Cpp/time_series/cmake-build-debug/lib/libdata.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/transwarp/Work/Cpp/time_series/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/transwarp/Work/Cpp/time_series/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 data/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/transwarp/Work/Cpp/time_series/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_test">
+				<Option output="/home/transwarp/Work/Cpp/time_series/bin/data_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/transwarp/Work/Cpp/time_series/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/transwarp/Work/Cpp/time_series/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_test/fast">
+				<Option output="/home/transwarp/Work/Cpp/time_series/bin/data_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/transwarp/Work/Cpp/time_series/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/transwarp/Work/Cpp/time_series/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/transwarp/Work/Cpp/time_series/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/include/column.h">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/include/data_type.h">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/include/enum_parser.h">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/include/errors.h">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/include/file.h">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/include/parse.h">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/include/time_series.h">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/include/time_series_reader.h">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/include/ts_file_definition.h">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/main.cpp">
+			<Option target="data_test"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/src/file.cpp">
+			<Option target="data"/>
+			<Option target="data_test"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/src/file_basic.cpp">
+			<Option target="data"/>
+			<Option target="data_test"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/src/time_series_reader.cpp">
+			<Option target="data"/>
+			<Option target="data_test"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/test/test.cpp">
+			<Option target="data"/>
+			<Option target="data_test"/>
+		</Unit>
+		<Unit filename="/home/transwarp/Work/Cpp/time_series/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
